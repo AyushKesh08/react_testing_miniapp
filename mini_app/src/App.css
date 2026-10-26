@@ -1,0 +1,48 @@
+#main_box{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2563eb;
+}
+
+form{
+  flex-direction: column;
+  display: flex;
+}
+
+label{
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input{
+  padding: 4px;
+}
+
+input:focus{
+  border-color: #2563eb;
+  outline: none;
+}
+
+#btn{
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn:hover {
+  background: rgb(124, 184, 33);
+}

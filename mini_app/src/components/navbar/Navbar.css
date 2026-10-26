@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8px;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1e293b;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3b82f6;
+    color: whitesmoke;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(152, 213, 61);
+}
