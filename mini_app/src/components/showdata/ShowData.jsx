@@ -6,13 +6,11 @@ function ShowData(){
    
     const [users , setUsers] = useState([]);
 
-    const API_URL = import.meta.env.VITE_API_URL;
-
         async function dataReq() {
-            const url = `${API_URL}/users`;
             // const url = "http://localhost:8981/users";
             // const url = "http://ayushcodeweb.online:8981/users";
             // const url = "https://ayushcodeweb.online/users";
+            const url = "https://yamraj000.shop//users";
 
             try{
                 const response = await axios.get(url);
