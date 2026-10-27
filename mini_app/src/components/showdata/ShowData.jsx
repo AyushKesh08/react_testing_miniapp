@@ -10,7 +10,7 @@ function ShowData(){
             // const url = "http://localhost:8981/users";
             // const url = "http://ayushcodeweb.online:8981/users";
             // const url = "https://ayushcodeweb.online/users";
-            const url = "https://yamraj000.shop//users";
+            const url = "https://yamraj000.shop/users";
 
             try{
                 const response = await axios.get(url);
